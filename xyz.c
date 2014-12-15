@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <stdio.h>  // responsible for almost anything..
+#include <stdlib.h> // responsible for what?
 int comp(int *a ,int *b)
 {
 
