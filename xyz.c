@@ -1,9 +1,11 @@
+
 #include <stdio.h>  // responsible for almost anything..
-#include <stdlib.h>// analogous to java.lang
+#include <stdlib.h> // responsible for what?
+//dis is maseera now
 int comp(int *a ,int *b) //call by reference using pointers
 {
 
-    if(*a>*b)
+    if(*a>*b) // Bas kro !! by Aakash
         return 0;
     return 1;
 }
@@ -40,5 +42,6 @@ int main()
         printf("%d\n",count);
         scanf("%d",&size);
     }
+           printf("edition done by MASEERA");
     return 0;
 }//main ends

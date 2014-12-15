@@ -1,23 +1,19 @@
-<<<<<<< HEAD
-#include <stdio.h>
-#include <stdlib.h>
-int comp(int *a ,int *b)
-=======
-#include <stdio.h>//standard input/output lib 
-#include <stdlib.h>// analogous to java.lang
+
+#include <stdio.h>  // responsible for almost anything..
+#include <stdlib.h> // responsible for what?
+//dis is maseera now
 int comp(int *a ,int *b) //call by reference using pointers
->>>>>>> c1d81437a7ddb93f2fb2b519b84f58dbb01f672a
 {
 
     if(*a>*b)
-        return 1;
-    return 0;
+        return 0;
+    return 1;
 }
 int main()
 {
     int arr[2000],size,l,s;
     int register i;
-    long long register count;
+    int register count;
     scanf("%d",&size);
     while(size>0)
     {
@@ -25,7 +21,7 @@ int main()
         for(i=0;i<size;i++)
             scanf("%d",arr+i);
 
-        qsort(arr,size,sizeof(int),comp);
+        qsort(arr,size,4,comp);
 
         for(i=size-1;i>1;i--)
         {
@@ -43,12 +39,9 @@ int main()
             }
 
         }
-        printf("%lld\n",count);
+        printf("%d\n",count);
         scanf("%d",&size);
     }
+           printf("edition done by MASEERA");
     return 0;
-<<<<<<< HEAD
-}
-=======
 }//main ends
->>>>>>> c1d81437a7ddb93f2fb2b519b84f58dbb01f672a
