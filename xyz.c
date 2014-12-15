@@ -1,6 +1,6 @@
 #include <stdio.h>  // responsible for almost anything..
-#include <stdlib.h> // responsible for what?
-int comp(int *a ,int *b)
+#include <stdlib.h>// analogous to java.lang
+int comp(int *a ,int *b) //call by reference using pointers
 {
 
     if(*a>*b)
@@ -41,4 +41,4 @@ int main()
         scanf("%d",&size);
     }
     return 0;
-}
+}//main ends
