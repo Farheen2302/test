@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 #include <stdio.h>//standard input/output lib 
 #include <stdlib.h>// analogous to java.lang
 int comp(int *a ,int *b) //call by reference using pointers
+=======
+#include <stdio.h>  // responsible for almost anything..
+#include <stdlib.h> // responsible for what?
+int comp(int *a ,int *b)
+>>>>>>> 40520c39df281e2c973ba2bc5b76265d1bd1b586
 {
 
     if(*a>*b)
