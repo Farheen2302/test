@@ -1,11 +1,10 @@
 
 #include <stdio.h>  // responsible for almost anything..
 #include <stdlib.h> // responsible for what?
-//dis is maseera
+//dis is maseera now
 int comp(int *a ,int *b)
 #include <stdlib.h>// analogous to java.lang
 int comp(int *a ,int *b) //call by reference using pointers
->>>>>>> c1d81437a7ddb93f2fb2b519b84f58dbb01f672a
 {
 
     if(*a>*b)
