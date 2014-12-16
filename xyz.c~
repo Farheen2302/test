@@ -1,8 +1,13 @@
 
 #include <stdio.h>  // responsible for almost anything..
+<<<<<<< HEAD
 #include <stdlib.h> // responsible for what?
 //dis is maseera
 int comp(int *a ,int *b)
+=======
+#include <stdlib.h>// analogous to java.lang
+int comp(int *a ,int *b) //call by reference using pointers
+>>>>>>> c1d81437a7ddb93f2fb2b519b84f58dbb01f672a
 {
 
     if(*a>*b)
@@ -44,4 +49,4 @@ int main()
     }
            printf("edition done by MASEERA");
     return 0;
-}
+}//main ends
