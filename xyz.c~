@@ -1,6 +1,7 @@
-#include <stdio.h>// EDITION DONE BY MASEERA
-#include <stdlib.h>
-#include <string.h>
+
+#include <stdio.h>  // responsible for almost anything..
+#include <stdlib.h> // responsible for what?
+//dis is maseera
 int comp(int *a ,int *b)
 {
 
