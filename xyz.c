@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 #include <stdio.h>// EDITION DONE BY MASEERA
 #include <stdlib.h>
 #include <string.h>
+=======
+#include <stdio.h>  // responsible for almost anything..
+#include <stdlib.h> // responsible for what?
+>>>>>>> 40520c39df281e2c973ba2bc5b76265d1bd1b586
 int comp(int *a ,int *b)
 {
 
