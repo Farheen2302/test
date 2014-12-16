@@ -1,5 +1,6 @@
-#include <stdio.h>
+#include <stdio.h>// EDITION DONE BY MASEERA
 #include <stdlib.h>
+#include <string.h>
 int comp(int *a ,int *b)
 {
 
@@ -40,5 +41,6 @@ int main()
         printf("%lld\n",count);
         scanf("%d",&size);
     }
+           printf("edition done by MASEERA");
     return 0;
 }
